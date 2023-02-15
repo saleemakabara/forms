@@ -1,0 +1,43 @@
+.submit-btn{
+    /* color: blueviolet; */
+    justify-content:center;
+    background-color: blue;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.form-wrapper{
+    border: .5px solid rgb(192, 180, 180);
+    background-color: rgb(250, 244, 244);
+    margin: 0 auto;
+    padding: 18px;
+    width: 30%;
+    font-size: 16px;
+    display: grid;
+    font-family: 'Courier New', Courier, monospace;
+    row-gap: 1rem;
+    box-shadow: 5px solid grey;
+    font: weight 48px;
+    /* box-sizing: border-box; */
+}
+.forms-item input,
+.forms-item text,
+.forms-item email{
+    font-size: 30px;
+    padding: 1rem;
+}
+.data{
+    padding:.5rem;
+    font-size: 16px;
+}
+p{
+    text-align:center;}
+p>a{
+    color: blue;
+}
+.form-wrapper form-row{
+    border: .5px solid red;
+}
+.body{
+    background-color:grey ;
+}
+
